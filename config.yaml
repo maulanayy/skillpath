@@ -1,0 +1,15 @@
+db:
+  address: "localhost"
+  dbname: skillpath_db
+  port: 5432
+  ssl: disable
+  user: postgres
+  password: admin
+
+rest:
+  port: "3000"
+  token_validate: false
+  token_expire: 1000 # seconds
+
+
+
